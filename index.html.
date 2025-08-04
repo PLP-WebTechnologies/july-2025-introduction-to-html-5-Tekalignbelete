@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="An introduction to semantic HTML5, accessibility best practices, and beginner SEO principles." />
+  <meta name="author" content="Tekalign Belete" />
+  <title>Introduction to Semantic HTML5</title>
+</head>
+<body>
+  <header>
+    <h1>Introduction to Semantic HTML5</h1>
+    <nav aria-label="Main Navigation">
+      <ul>
+        <li><a href="#what-is-html5" title="Learn what HTML5 is">What is HTML5?</a></li>
+        <li><a href="#accessibility" title="Learn about web accessibility">Accessibility</a></li>
+        <li><a href="#seo" title="Understand SEO basics">SEO Basics</a></li>
+        <li><a href="#contact" title="Contact the author">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="what-is-html5">
+      <h2>What is HTML5?</h2>
+      <p>HTML5 is the latest version of the Hypertext Markup Language. It introduces semantic tags that improve content structure and provide meaning to web documents.</p>
+    </section>
+
+    <section id="accessibility">
+      <h2>Accessibility</h2>
+      <article>
+        <h3>Making the Web Inclusive</h3>
+        <p>Accessibility ensures that websites are usable by everyone, including people with disabilities. Semantic HTML5 helps screen readers and other assistive technologies understand web content.</p>
+      </article>
+      <article>
+        <h3>Best Practices</h3>
+        <ul>
+          <li>Use semantic landmarks like <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code>.</li>
+          <li>Ensure all interactive elements are keyboard accessible.</li>
+          <li>Provide descriptive titles, alt text, and link labels.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="seo">
+      <h2>SEO Basics</h2>
+      <p>Search Engine Optimization (SEO) helps your site appear in search engine results. Using proper HTML structure and descriptive content helps search engines understand your page.</p>
+      <ul>
+        <li>Use clear and logical heading hierarchy (H1 → H2 → H3).</li>
+        <li>Include relevant keywords in headings and paragraphs.</li>
+        <li>Add a meta description to describe your page content.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <h2>Contact</h2>
+    <address>
+      Created by <a href="mailto:tekalign@example.com" title="Send an email to Tekalign Belete">Tekalign Belete</a><br />
+      Addis Ababa, Ethiopia
+    </address>
+    <p>&copy; 2025 Introduction to HTML5. All rights reserved.</p>
+  </footer>
+</body>
+</html>
